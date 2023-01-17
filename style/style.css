@@ -1,4 +1,20 @@
+.info{
+    background: #f7f7f7;
+}
+
+.icon{
+    align-items: center;
+}
+
+.icon p {
+    margin-right: 2em;
+}
+
 #informacoa{
-background: wheat;
-padding: 12em;
+    width: 50%;
+    padding: 10%;
+}
+
+#foto{
+    width: 100%;
 }
