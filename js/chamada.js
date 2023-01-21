@@ -1,22 +1,28 @@
-var nav = document.getElementById('nav')
+var nav = document.querySelector('.navigation')
 
 if (!!nav == true){
     nav.innerHTML = 
     `
-        <nav class="recipiente nav">
-            <img class="icone" src="/img/logo minimalista.png" alt="">
-            <strong>Portfólio</strong>
-            <ul class="recipiente menu">
+        <nav class="container nav">
+            <span class="container">
+                <img class="icon" src="/img/logo minimalista.png" alt="">
+                <strong>Portfólio</strong>
+            </span>
+            <ul class="container menu">
                 <li>
-                    <a href="">Início</a>
+                    <a href="#inicio">Início</a>
                 </li>
                 <li>
-                    <a href="">Projetos</a>
+                    <a href="#projetos">Projetos</a>
                 </li>
                 <li>
-                    <a href="">Contato</a>
+                    <a href="#footer">Contato</a>
                 </li>
             </ul>
+            <select name="" id="">
+                <option value="">PT</option>
+                <option value="">EN</option>
+            </select>
         </nav>    
     `
 }

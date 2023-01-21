@@ -1,19 +1,33 @@
-.info{
+.start{
     background: #f7f7f7;
 }
 
-.icon{
-    align-items: center;
-}
-
-.icon p {
-    margin-right: 2em;
-}
-
-#informacoa{
-    padding: 10%;
+.info, .Photograph{
+    width: 50%;
 }
 
 #foto{
-    width: 80%;
+    width: 100%;
+}
+
+.info{
+    padding: 10% 0 10% 10%;
+}
+
+.info h1, h2, h3{
+    margin: 0 0 0.5em 0;
+}
+
+.info p{
+    margin: 2em 1em 0 0;
+}
+
+.info button{
+    width: 8rem;
+    height: 3rem;
+    margin: 4em 0;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 0.8em;
+    background: #00bf96;
 }
