@@ -7,7 +7,7 @@
 }
 
 #foto{
-    width: 100%;
+    width: 88%;
 }
 
 .info{
@@ -30,4 +30,14 @@
     color: #ffffff;
     border-radius: 0.8em;
     background: #00bf96;
+}
+
+.info button:hover{
+    background: #12ca8c;
+    box-shadow: 1px 11px 20px 1px #12ca8d7c;
+    transition: 0.5s ease;
+}
+
+.projects{
+    background: #171c23;
 }

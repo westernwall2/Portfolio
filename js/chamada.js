@@ -6,7 +6,7 @@ if (!!nav == true){
         <nav class="container nav">
             <span class="container">
                 <img class="icon" src="/img/logo minimalista.png" alt="">
-                <strong>Portfólio</strong>
+                <strong>Portfolio</strong>
             </span>
             <ul class="container menu">
                 <li>
@@ -16,7 +16,7 @@ if (!!nav == true){
                     <a href="#projetos">Projetos</a>
                 </li>
                 <li>
-                    <a href="#footer">Contato</a>
+                    <a href="#contato">Contato</a>
                 </li>
             </ul>
             <select name="" id="">
