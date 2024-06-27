@@ -2,12 +2,11 @@
 <html lang="PT-br">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/global.css">
     <link rel="stylesheet" href="/style/style.css">
-    <script src="/js/chamada.js" defer></script>
     <script src="/js/script.js" defer></script>
     <link rel="icon" type="image/png" href="/img/logo minimalista.png"/>
     <title>Aliança DEV-Portfolio</title>
@@ -15,7 +14,27 @@
 
 <body>
     <header class="navigation">
-            <!--Dados de origem em /js/chamada.js-->
+        <nav class="container nav">
+            <span class="container">
+                <img class="icon" src="/img/logo minimalista.png" alt="">
+                <strong>Portfolio</strong>
+            </span>
+            <ul class="container menu">
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+            <select title="language" name="select" id="language-select">
+                <option value="pt">PT</option>
+                <option value="en">EN</option>
+            </select>
+        </nav>  
     </header>
 
     <main>
@@ -23,33 +42,31 @@
             <div class="info">
                 <h2>Olá, <span class="destaque">Eu sou</span></h2>
                 <h1 class="destaque">Jeferson Costa</h1>
-                <h3>Desenvolvedor Web Full Stack</h3>
-                <p>
-                    Lorem Ipsum é simplesmente uma simulação de
-                    texto da indústria tipográfica e de impressos,
-                    e vem sendo utilizado desde o século XVI,
+                <h3>Desenvolvedor Web Full Stack <br> com experiência em criar soluções dinâmicas e interativas.</h3>
+                <p id="about-content">
+                    Com um sólido background em Node.js, HTML, CSS, JavaScript, SQL Server e MySQL, 
+                    estou comprometido em entregar projetos que não apenas atendam, mas superem as expectativas dos clientes.
                 </p>
                 <button id="whatsapp">Entre em contato</button>
                 <div class="container">
-                    <p>Confira meu</p>
-                    <a href="https://www.instagram.com/alianca_dev/" target="_blank">
-                        <img class="icon" src="/img/instagram.png" alt="">
+                    <a title="instagram" href="https://www.instagram.com/alianca_dev/" target="_blank">
+                        <img class="icon" src="/img/instagram.png" alt="Instagram">
                     </a>
-                    <a href="https://github.com/westernwall2" target="_blank">
-                        <img class="icon" src="/img/GitHub.png" alt="">
+                    <a title="github" href="https://github.com/westernwall2" target="_blank">
+                        <img class="icon" src="/img/GitHub.png" alt="GitHub">
                     </a>
-                    <a href="https://www.linkedin.com/in/jeferson-costa-1367891b3/" target="_blank">
-                        <img class="icon" src="/img/linkedin.png" alt="">
+                    <a title="linkedin" href="https://www.linkedin.com/in/jeferson-costa-1367891b3/" target="_blank">
+                        <img class="icon" src="/img/linkedin.png" alt="Linkedin">
                     </a>
                     
                 </div>
             </div>
             <div class="Photograph">
-                <img id="foto" src="/img/logo minimalista.png" alt="">
+                <img id="foto" src="/img/logo minimalista.png" alt="LOGO">
             </div>
         </div>
         <div id="projetos" class="recipiente projects">
-
+            
         </div>
     </main>
 
