@@ -41,3 +41,19 @@
 .projects{
     background: #171c23;
 }
+
+.tags {
+    display: inline-block;
+    box-shadow: 0px 0px 15px -5px #171c23;
+    padding: 3px 16px;
+    margin: 2px;
+    color: white;
+    border-radius: 32px;
+    cursor: pointer;
+    background: #171c23;
+}
+
+.tags:hover {
+    opacity: 0.8;
+    box-shadow: 1px 1px 8px 2px #171c23cc;
+}
