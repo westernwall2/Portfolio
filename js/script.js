@@ -6,7 +6,7 @@ const translations = {
         contact: "Contact",
         salute: 'Hello, <span class="destaque">I am</span>',
         about: "Full Stack Web Developer <br> with experience in creating dynamic and interactive solutions.",
-        aboutUsContent: 'With a solid background in <span class="tags">Node.js</span>, <span class="tags">HTML</span>, <span class="tags">CSS</span>, <span class="tags">JavaScript</span>, <span class="tags">SQL Server</span> and <span class="tags">MySQL</span>, I am committed to delivering projects that not only meet but exceed client expectations.',
+        aboutUsContent: 'With a solid background in <span class="tags">Node.js</span>, <span class="tags">HTML</span>, <span class="tags">CSS</span>, <span class="tags">JavaScript</span>, <span class="tags">Apps Script</span> <span class="tags">SQL Server</span> and <span class="tags">MySQL</span>, I am committed to delivering projects that not only meet but exceed client expectations.',
         ContactUs: "Contact Us"
     },
     pt: {
@@ -15,7 +15,7 @@ const translations = {
         contact: "Contato",
         salute: 'Olá, <span class="destaque">Eu sou</span>',
         about: "Desenvolvedor Web Full Stack <br> com experiência em criar soluções dinâmicas e interativas.",
-        aboutUsContent: 'Com um sólido background em <span class="tags">Node.js</span>, <span class="tags">HTML</span>, <span class="tags">CSS</span>, <span class="tags">JavaScript</span>, <span class="tags">SQL Server</span> e <span class="tags">MySQL</span>, estou comprometido em entregar projetos que não apenas atendam, mas superem as expectativas dos clientes.',
+        aboutUsContent: 'Com um sólido background em <span class="tags">Node.js</span>, <span class="tags">HTML</span>, <span class="tags">CSS</span>, <span class="tags">JavaScript</span>, <span class="tags">Apps Script</span>, <span class="tags">SQL Server</span> e <span class="tags">MySQL</span>, estou comprometido em entregar projetos que não apenas atendam, mas superem as expectativas dos clientes.',
         ContactUs: "Entre em contato"
     }
 };
@@ -45,7 +45,8 @@ const colors = {
     'CSS': '#136eb4', 
     'JavaScript': '#f1a93b', 
     'SQL Server': '#b11d1d', 
-    'MySQL': '#035c7f'
+    'MySQL': '#035c7f',
+    'Apps Script': '#f63e2e'
 }
 
 function tagColor() {
